@@ -1,0 +1,65 @@
+.tech-card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #fff;
+    /* Background color for the card */
+}
+
+.tech-card:hover {
+    transform: translateY(-5px);
+}
+
+.tech-icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.tech-image {
+    max-width: 100px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    /* Background color for the image box */
+    padding: 10px;
+    /* Add padding to separate the image from the background */
+    border-radius: 50%;
+    /* Optional: make the image box round */
+}
+
+/* Additional styles */
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #434175;
+}
+
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #5a5af3;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+
+.custom-img-height {
+    height: 100px;
+    /* Adjust the height as needed */
+}
