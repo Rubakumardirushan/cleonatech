@@ -23,8 +23,8 @@ class adPanelProvider extends PanelProvider
     {
         return $panel
             ->default()
-            ->id('1')
-            ->path('1')
+            ->id('admin')
+            ->path('admin')
             ->login()
             ->colors([
                 'primary' => Color::Amber,

@@ -38,7 +38,7 @@
             </div>
 
             <div class="col-lg-6 mt-4 mt-lg-0">
-                <form action="storemsg" method="post" role="form" class="php-email-form">
+                <form action="storemsg" method="post" role="form" class="php-email-form" id="contact-form">
                     @csrf
                     <div class="row">
                         <div class="col-md-6 form-group">
@@ -57,7 +57,7 @@
 
                     <div class="text-center mt-3"><button type="submit">Send Message</button></div>
                     @if (session('success'))
-                        <div class="alert alert-primary">
+                        <div class="alert alert-primary " id="msg" >
                             {{ session('success') }}
                         </div>
                     @endif
@@ -66,5 +66,7 @@
         </div>
     </div>
     
+
+  
 </section>
 

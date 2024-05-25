@@ -65,6 +65,7 @@
                     <p>Vue.js</p>
                 </div>
             </div>
+            
         </div>
     </div>
 </section>

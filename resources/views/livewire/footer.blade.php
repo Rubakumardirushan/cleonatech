@@ -19,22 +19,22 @@
       <div class="col-lg-2 col-md-6 footer-links">
         <h4>Useful Links</h4>
         <ul>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#tech">Technology</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Portfolio</a></li>
         </ul>
       </div>
 
       <div class="col-lg-3 col-md-6 footer-links">
         <h4>Our Services</h4>
         <ul>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#services">Mobile Development</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#services">Web Development</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#services">SEO analisys</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#services"></a>Social Media Marketing</li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#services">Graphic Design</a></li>
         </ul>
       </div>
 
@@ -54,17 +54,17 @@
 
   <div class="me-md-auto text-center text-md-start">
     <div class="copyright">
-      &copy; Copyright <strong><span>Resi</span></strong>. All Rights Reserved
+      &copy; Copyright <strong><span>CLEONATECH</span></strong>. All Rights Reserved
     </div>
     <div class="credits">
       <!-- All the links in the footer should remain intact. -->
       <!-- You can delete the links only if you purchased the pro version. -->
       <!-- Licensing information: https://bootstrapmade.com/license/ -->
       <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/resi-free-bootstrap-html-template/ -->
-      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      Designed by <a href="https://appslanka.lk/">AppsLanka</a>
     </div>
   </div>
-  <div class="social-links text-center text-md-right pt-3 pt-md-0">
+  <div class="social-links text-center text-md-right pt-3 pt-md-0" >
     <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
     <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
     <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
