@@ -4,104 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Details</title>
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/port.css') }}" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
     
-    <style>
-       
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        .portfolio-details {
-            padding: 60px 0;
-            background-color: #f8f9fa;
-        }
-
-        .portfolio-details .section-title {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-
-        .portfolio-details .section-title h2 {
-            font-size: 32px;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-bottom: 20px;
-            padding-bottom: 20px;
-            position: relative;
-            color: #434175;
-        }
-
-        .portfolio-details .section-title h2::after {
-            content: '';
-            width: 60px;
-            height: 3px;
-            background: #333;
-            display: block;
-            margin: 10px auto 0;
-        }
-
-        .portfolio-info {
-            margin-top: 40px;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .portfolio-info h3 {
-            font-size: 24px;
-            font-weight: 700;
-            color: #333;
-            margin-bottom: 20px;
-        }
-
-        .portfolio-info ul {
-            list-style: none;
-            padding: 0;
-            font-size: 16px;
-        }
-
-        .portfolio-info ul li + li {
-            margin-top: 15px;
-        }
-
-        .portfolio-info ul li strong {
-            color: #333;
-        }
-
-        .portfolio-description h2 {
-            font-size: 28px;
-            font-weight: 700;
-            color: #333;
-            margin-bottom: 20px;
-        }
-
-        .portfolio-description p {
-            padding: 0;
-            font-size: 16px;
-            line-height: 1.6;
-        }
-
-        .portfolio-details-slider .swiper-slide img {
-            width: 100%;
-            height: auto;
-            object-fit: cover;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .portfolio-details-slider .swiper-button-prev,
-        .portfolio-details-slider .swiper-button-next {
-            color: #333;
-        }
-        
-    </style>
+   
 </head>
 <body>
     <section id="portfolio-details" class="portfolio-details">

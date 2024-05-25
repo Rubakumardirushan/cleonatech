@@ -39,7 +39,7 @@
               <p>Web</p>
               <div class="portfolio-links">
                 <a href="{{ asset('images/portfolio-2.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="{{ route('portfolio.details', ['id' => 1]) }}" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
