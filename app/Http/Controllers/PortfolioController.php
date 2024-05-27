@@ -19,6 +19,7 @@ class PortfolioController extends Controller
                 'description' => 'Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius..',
                 'images' => [
                     'images/work-1.jpg',
+                    'images/work-2.jpg',
                    
                 ]
             ],

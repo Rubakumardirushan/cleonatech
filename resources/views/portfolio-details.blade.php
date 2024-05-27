@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORTFOLIO DETAILS</title>
+    <title></title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Swiper CSS -->
-    <link rel="stylesheet" href="{{ asset('vendor/swiper/swiper-bundle.min.css') }}">
+   
     <!-- Custom CSS -->
     <style>
         .portfolio-heading {
@@ -24,20 +24,7 @@
             text-align: center;
         }
         /* Additional CSS for Swiper */
-        .swiper-container {
-            width: 100%;
-            height: 400px; /* Adjust as needed */
-        }
-
-        .swiper-slide img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .swiper-pagination-bullet-active {
-            background-color: #434175 !important;
-        }
+       
     </style>
 </head>
 <body>
@@ -184,19 +171,31 @@
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-b6udZbqvu6vN4i1sIabshR9Wmdkce0QIh0XsCQn5Sa3w95SgZhjD3FwnYs5rClL5" crossorigin="anonymous"></script>
     <!-- Swiper JS -->
-    <script src="{{ asset('vendor/swiper/swiper-bundle.min.js') }}"></script>
     <script>
-        var swiper = new Swiper('.swiper-container', {
-            loop: true,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-        });
-    </script>
+    var imageElements = document.querySelectorAll('.swiper-slide img');
+    var currentIndex = 0;
+    var delayTimer;
+
+    function showNextImage() {
+        if (currentIndex < imageElements.length - 1) {
+            imageElements[currentIndex].style.display = 'none';
+            currentIndex++;
+            imageElements[currentIndex].style.display = 'block';
+        } else {
+            clearTimeout(delayTimer);
+        }
+    }
+
+    window.addEventListener('load', function() {
+        for (var i = 1; i < imageElements.length; i++) {
+            imageElements[i].style.display = 'none';
+        }
+
+        delayTimer = setTimeout(function() {
+            showNextImage();
+            delayTimer = setInterval(showNextImage, 2000); // Change slide every 5 seconds
+        }, 2000); // Initial delay of 5 seconds
+    });
+</script>
 </body>
 </html>
