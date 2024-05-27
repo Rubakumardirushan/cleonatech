@@ -12,3 +12,4 @@ Route::get('/', function () {
 Route::post('storemsg', [customercontroller::class, 'store']);
 Route::view('portfolio-details', 'portfolio-details');
 Route::get('/portfolio-details/{id}', [PortfolioController::class,'show'])->name('portfolio.details');
+Route::view('d','test.diru');

@@ -11,42 +11,39 @@ class PortfolioController extends Controller
         // Dummy data for demonstration purposes
         $portfolioItems = [
             1 => [
-                'title' => 'App 1',
+                
                 'category' => 'App',
                 'client' => 'Client A',
                 'date' => '01 March, 2020',
                 'url' => 'www.example1.com',
-                'description' => 'This is a detailed description for App 1.',
+                'description' => 'Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius..',
                 'images' => [
-                    'images/portfolio-1.jpg',
-                    'images/portfolio-2.jpg',
-                    'images/portfolio-3.jpg'
+                    'images/work-1.jpg',
+                   
                 ]
             ],
             2 => [
-                'title' => 'Web 3',
+                
                 'category' => 'Web',
                 'client' => 'Client B',
                 'date' => '15 April, 2021',
                 'url' => 'www.example2.com',
                 'description' => 'This is a detailed description for Web 3.',
                 'images' => [
-                    'images/portfolio-2.jpg',
-                    'images/portfolio-4.jpg',
-                    'images/portfolio-5.jpg'
+                    'images/work-2.jpg',
+                  
                 ]
             ],
             3 => [
-                'title' => 'Card 2',
+              
                 'category' => 'Card',
                 'client' => 'Client C',
                 'date' => '22 May, 2022',
                 'url' => 'www.example3.com',
                 'description' => 'This is a detailed description for Card 2.',
                 'images' => [
-                    'images/portfolio-4.jpg',
-                    'images/portfolio-6.jpg',
-                    'images/portfolio-7.jpg'
+                    'images/work-4.jpg',
+                  
                 ]
             ],
         ];

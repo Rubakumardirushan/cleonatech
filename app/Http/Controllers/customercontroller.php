@@ -17,6 +17,6 @@ class customercontroller extends Controller
         $customer->message = $request->message;
         Mail::to($request->email)->send(new contact($request->subject, $customer->message, $request->name));
         $customer->save();
-        return redirect()->to('/#msg')->with('success', 'Message sent successfully');
+        return redirect()->to('/#contact')->with('success', 'Message sent successfully');
     }
 }
