@@ -1,4 +1,4 @@
-
+@section('title', 'Footer')
 <footer id="footer " class="contact section-bg">
 
 <div class="footer-top">

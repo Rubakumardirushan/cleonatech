@@ -118,21 +118,21 @@
                     <div class="col-lg-2 col-md-6 footer-links">
                         <h4>Useful Links</h4>
                         <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#tech">Technology</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Portfolio</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="{{ url('/#hero') }}">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="{{ url('/#about') }}">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="{{ url('/#services') }}">Services</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="{{ url('/#tech') }}">Technology</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="{{ url('/#portfolio') }}">Portfolio</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h4>Our Services</h4>
                         <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#services">Mobile Development</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#services">Web Development</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#services">SEO analysis</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#services">Social Media Marketing</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#services">Graphic Design</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="{{ url('/#services') }}">Mobile Development</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="{{ url('/#services') }}">Web Development</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="{{ url('/#services') }}">SEO analysis</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="{{ url('/#services') }}">Social Media Marketing</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="{{ url('/#services') }}">Graphic Design</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-4 col-md-6 footer-newsletter">

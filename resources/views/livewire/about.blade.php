@@ -1,4 +1,5 @@
 <!-- ======= About Section ======= -->
+@section('title', 'About')
 <section id="about" class="about">
     <div class="section-title">
         <h2>About</h2>
@@ -96,10 +97,10 @@
         </div>
 
       </div>
-      <script src="{{ asset('purecounter/purecounter_vanilla.js') }}"></script>
-      <script src="https://cdn.jsdelivr.net/npm/purecounterjs@1.1.0/purecounter.js"></script>
+    
+      
     </section><!-- End Counts Section -->
-    <script src="{{ asset('purecounter/purecounter_vanilla.js') }}"></script>
+  
 
 
 </section><!-- End About Section -->

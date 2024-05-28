@@ -1,4 +1,5 @@
 <!-- ======= Services Section ======= -->
+@section('title', 'Services')
 <section id="services" class="services">
     <div class="container">
         <div class="section-title">
