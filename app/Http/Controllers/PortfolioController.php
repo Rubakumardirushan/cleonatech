@@ -18,8 +18,8 @@ class PortfolioController extends Controller
                 'url' => 'https://www.example1.com',
                 'description' => 'Developed a comprehensive e-commerce platform for Tech Innovators Inc., featuring a user-friendly interface, secure payment integration, and robust product management capabilities.',
                 'images' => [
-                    'images/work-1.jpg',
-                    'images/work-1.jpg',
+                    'images/work-11.jpg',
+                    'images/work-11.jpg',
                 ]
             ],
             2 => [
